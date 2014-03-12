@@ -10,7 +10,11 @@ Example usage:
 $slack = new Slack();
 $slack->notify(array(
 	'channel'		=> '#my-awesome-channel',	//optional, has default config
+	
 	'username'		=> 'My Awesome Bot',		//optional, has default config
+	
 	'text'			=> 'Hello worl!',
+	
 	'icon_emoji'	=> ':mouse:',				//optional, has default config
+	
 ));
