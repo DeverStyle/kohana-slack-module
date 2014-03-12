@@ -17,7 +17,7 @@ $slack = new Slack();
 $slack->notify(array(
 	'channel'		=> '#my-awesome-channel',	//optional, has default config
 	'username'		=> 'My Awesome Bot',		//optional, has default config
-	'text'			=> 'Hello worl!',
+	'text'			=> 'Hello world!',
 	'icon_emoji'	=> ':mouse:',				//optional, has default config
 ));
 ```
