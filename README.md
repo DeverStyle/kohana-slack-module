@@ -1,15 +1,19 @@
-kohana-slack-module
+###Kohana Slack module
 ===================
 
-Kohana Slack module
+A Kohana module that can be used to post in a slack channel https://slack.com
 
+Get the submodule from git
+```
+git submodule add git@github.com:DeverStyle/kohana-slack-module.git modules/slack
+```
 
-Add the module in bootstrap.php.
+Add the submodule in bootstrap.php.
 ```php
 'slack'	=> MODPATH.'slack',
 ```
 
-Copy the module config into your application config folder.
+Copy the module config into your application config folder and fill in with data.
 
 Example usage:
 ```php
