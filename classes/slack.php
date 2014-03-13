@@ -2,9 +2,9 @@
 
 class Slack
 {
-	public function __construct()
+	public function __construct($config = 'slack')
 	{
-		$this->config = Kohana::$config->load('slack');
+		$this->config = Kohana::$config->load($config);
 	}
 	
 	public function notify($options)
